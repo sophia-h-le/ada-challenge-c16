@@ -1,5 +1,16 @@
 class Building(object):
-    def __init__(self, OSEBuildingID, BuildingName, NumberofFloors, ENERGYSTARScore, SiteEUI, NaturalGas, Neighborhood, Electricity, PropertyGFABuildings, PropertyType ):
+    def __init__(
+            self,
+            OSEBuildingID,
+            BuildingName,
+            NumberofFloors,
+            ENERGYSTARScore,
+            SiteEUI,
+            NaturalGas,
+            Neighborhood,
+            Electricity,
+            PropertyGFABuildings,
+            PropertyType):
         self.OSEBuildingID = OSEBuildingID
         self.BuildingName = BuildingName
         self.NumberofFloors = NumberofFloors
