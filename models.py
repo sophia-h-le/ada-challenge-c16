@@ -10,7 +10,7 @@ class Building(object):
             Neighborhood,
             Electricity,
             PropertyGFABuildings,
-            PropertyType):
+            PropertyTypes):
         self.OSEBuildingID = OSEBuildingID
         self.BuildingName = BuildingName
         self.NumberofFloors = NumberofFloors
@@ -20,4 +20,4 @@ class Building(object):
         self.Neighborhood = Neighborhood
         self.Electricity = Electricity
         self.PropertyGFABuildings = PropertyGFABuildings
-        self.PropertyType = PropertyType
+        self.PropertyTypes = PropertyTypes
